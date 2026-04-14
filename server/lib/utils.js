@@ -1,6 +1,5 @@
 
 // Generate jwt token
-
 import jwt from "jsonwebtoken"
 
 export const generateToken = (userId)=>{

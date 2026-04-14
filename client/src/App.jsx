@@ -7,7 +7,6 @@ import {Toaster} from 'react-hot-toast'
 import { useContext } from 'react'
 import { AuthContext } from '../context/AuthContext'
 
-// 5hr 45 min  min se start karna hai (bas hosting baki hai aur thoda bug fix and design)
 function App() {
   const  {authUser}  = useContext(AuthContext);
   

@@ -16,7 +16,6 @@ export const ChatProvider=({children})=>{
     const {socket, axios} = useContext(AuthContext);
 
     // fn to get all user for sidebar
-
     const getUsers = async ()=>{
         try {
             const {data} = await axios.get("/api/messages/users");
